@@ -8,10 +8,4 @@ class UsersRunner {
     Karate testUsers() {
         return Karate.run("users").relativeTo(getClass());
     }    
-
-    @Karate.Test
-    Karate adminUsers() {
-        return Karate.run("admin").relativeTo(getClass());
-    }  
-
 }

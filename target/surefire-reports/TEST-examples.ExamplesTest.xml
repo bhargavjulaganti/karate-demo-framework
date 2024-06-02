@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="examples.ExamplesTest" time="2.1" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="examples.ExamplesTest" time="5.862" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -13,7 +13,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/21.0.3/libexec/openjdk.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/bhargavajulaganti/Documents/dev/my-karate-demo/myproject/target/surefire/surefirebooter-20240601194656874_3.jar /Users/bhargavajulaganti/Documents/dev/my-karate-demo/myproject/target/surefire 2024-06-01T19-46-56_830-jvmRun1 surefire-20240601194656874_1tmp surefire_0-20240601194656874_2tmp"/>
+    <property name="sun.java.command" value="/Users/bhargavajulaganti/Documents/dev/my-karate-demo/myproject/target/surefire/surefirebooter-20240601201123544_3.jar /Users/bhargavajulaganti/Documents/dev/my-karate-demo/myproject/target/surefire 2024-06-01T20-11-23_492-jvmRun1 surefire-20240601201123544_1tmp surefire_0-20240601201123544_2tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/bhargavajulaganti/Documents/dev/my-karate-demo/myproject/target/test-classes:/Users/bhargavajulaganti/Documents/dev/my-karate-demo/myproject/target/classes:/Users/bhargavajulaganti/.m2/repository/com/intuit/karate/karate-junit5/1.4.1/karate-junit5-1.4.1.jar:/Users/bhargavajulaganti/.m2/repository/com/intuit/karate/karate-core/1.4.1/karate-core-1.4.1.jar:/Users/bhargavajulaganti/.m2/repository/org/graalvm/js/js-scriptengine/22.3.3/js-scriptengine-22.3.3.jar:/Users/bhargavajulaganti/.m2/repository/org/graalvm/sdk/graal-sdk/22.3.3/graal-sdk-22.3.3.jar:/Users/bhargavajulaganti/.m2/repository/org/graalvm/js/js/22.3.3/js-22.3.3.jar:/Users/bhargavajulaganti/.m2/repository/org/graalvm/regex/regex/22.3.3/regex-22.3.3.jar:/Users/bhargavajulaganti/.m2/repository/org/graalvm/truffle/truffle-api/22.3.3/truffle-api-22.3.3.jar:/Users/bhargavajulaganti/.m2/repository/com/ibm/icu/icu4j/71.1/icu4j-71.1.jar:/Users/bhargavajulaganti/.m2/repository/org/thymeleaf/thymeleaf/3.1.2.RELEASE/thymeleaf-3.1.2.RELEASE.jar:/Users/bhargavajulaganti/.m2/repository/ognl/ognl/3.3.4/ognl-3.3.4.jar:/Users/bhargavajulaganti/.m2/repository/org/javassist/javassist/3.29.0-GA/javassist-3.29.0-GA.jar:/Users/bhargavajulaganti/.m2/repository/org/attoparser/attoparser/2.0.7.RELEASE/attoparser-2.0.7.RELEASE.jar:/Users/bhargavajulaganti/.m2/repository/org/unbescape/unbescape/1.1.6.RELEASE/unbescape-1.1.6.RELEASE.jar:/Users/bhargavajulaganti/.m2/repository/org/slf4j/slf4j-api/2.0.7/slf4j-api-2.0.7.jar:/Users/bhargavajulaganti/.m2/repository/com/linecorp/armeria/armeria/1.25.2/armeria-1.25.2.jar:/Users/bhargavajulaganti/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.15.2/jackson-core-2.15.2.jar:/Users/bhargavajulaganti/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.15.2/jackson-annotations-2.15.2.jar:/Users/bhargavajulaganti/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.15.2/jackson-databind-2.15.2.jar:/Users/bhargavajulaganti/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.15.2/jackson-datatype-jdk8-2.15.2.jar:/Users/bhargavajulaganti/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.15.2/jackson-datatype-jsr310-2.15.2.jar:/Users/bhargavajulaganti/.m2/repository/io/micrometer/micrometer-core/1.11.3/micrometer-core-1.11.3.jar:/Users/bhargavajulaganti/.m2/repository/io/micrometer/micrometer-commons/1.11.3/micrometer-commons-1.11.3.jar:/Users/bhargavajulaganti/.m2/repository/io/micrometer/micrometer-observation/1.11.3/micrometer-observation-1.11.3.jar:/Users/bhargavajulaganti/.m2/repository/org/hdrhistogram/HdrHistogram/2.1.12/HdrHistogram-2.1.12.jar:/Users/bhargavajulaganti/.m2/repository/org/latencyutils/LatencyUtils/2.0.3/LatencyUtils-2.0.3.jar:/Users/bhargavajulaganti/.m2/repository/io/netty/netty-transport/4.1.96.Final/netty-transport-4.1.96.Final.jar:/Users/bhargavajulaganti/.m2/repository/io/netty/netty-common/4.1.96.Final/netty-common-4.1.96.Final.jar:/Users/bhargavajulaganti/.m2/repository/io/netty/netty-buffer/4.1.96.Final/netty-buffer-4.1.96.Final.jar:/Users/bhargavajulaganti/.m2/repository/io/netty/netty-resolver/4.1.96.Final/netty-resolver-4.1.96.Final.jar:/Users/bhargavajulaganti/.m2/repository/io/netty/netty-codec-haproxy/4.1.96.Final/netty-codec-haproxy-4.1.96.Final.jar:/Users/bhargavajulaganti/.m2/repository/io/netty/netty-codec/4.1.96.Final/netty-codec-4.1.96.Final.jar:/Users/bhargavajulaganti/.m2/repository/io/netty/netty-codec-http2/4.1.96.Final/netty-codec-http2-4.1.96.Final.jar:/Users/bhargavajulaganti/.m2/repository/io/netty/netty-handler/4.1.96.Final/netty-handler-4.1.96.Final.jar:/Users/bhargavajulaganti/.m2/repository/io/netty/netty-codec-http/4.1.96.Final/netty-codec-http-4.1.96.Final.jar:/Users/bhargavajulaganti/.m2/repository/io/netty/netty-resolver-dns/4.1.96.Final/netty-resolver-dns-4.1.96.Final.jar:/Users/bhargavajulaganti/.m2/repository/io/netty/netty-codec-dns/4.1.96.Final/netty-codec-dns-4.1.96.Final.jar:/Users/bhargavajulaganti/.m2/repository/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar:/Users/bhargavajulaganti/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/bhargavajulaganti/.m2/repository/io/netty/netty-handler-proxy/4.1.96.Final/netty-handler-proxy-4.1.96.Final.jar:/Users/bhargavajulaganti/.m2/repository/io/netty/netty-codec-socks/4.1.96.Final/netty-codec-socks-4.1.96.Final.jar:/Users/bhargavajulaganti/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.96.Final/netty-transport-native-unix-common-4.1.96.Final-linux-x86_64.jar:/Users/bhargavajulaganti/.m2/repository/io/netty/netty-transport-native-epoll/4.1.96.Final/netty-transport-native-epoll-4.1.96.Final-linux-x86_64.jar:/Users/bhargavajulaganti/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.96.Final/netty-transport-native-unix-common-4.1.96.Final.jar:/Users/bhargavajulaganti/.m2/repository/io/netty/netty-transport-classes-epoll/4.1.96.Final/netty-transport-classes-epoll-4.1.96.Final.jar:/Users/bhargavajulaganti/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.96.Final/netty-transport-native-unix-common-4.1.96.Final-linux-aarch_64.jar:/Users/bhargavajulaganti/.m2/repository/io/netty/netty-transport-native-epoll/4.1.96.Final/netty-transport-native-epoll-4.1.96.Final-linux-aarch_64.jar:/Users/bhargavajulaganti/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.96.Final/netty-transport-native-unix-common-4.1.96.Final-osx-x86_64.jar:/Users/bhargavajulaganti/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.96.Final/netty-transport-native-kqueue-4.1.96.Final-osx-x86_64.jar:/Users/bhargavajulaganti/.m2/repository/io/netty/netty-transport-classes-kqueue/4.1.96.Final/netty-transport-classes-kqueue-4.1.96.Final.jar:/Users/bhargavajulaganti/.m2/repository/io/netty/netty-resolver-dns-native-macos/4.1.96.Final/netty-resolver-dns-native-macos-4.1.96.Final-osx-x86_64.jar:/Users/bhargavajulaganti/.m2/repository/io/netty/netty-resolver-dns-classes-macos/4.1.96.Final/netty-resolver-dns-classes-macos-4.1.96.Final.jar:/Users/bhargavajulaganti/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.96.Final/netty-transport-native-unix-common-4.1.96.Final-osx-aarch_64.jar:/Users/bhargavajulaganti/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.96.Final/netty-transport-native-kqueue-4.1.96.Final-osx-aarch_64.jar:/Users/bhargavajulaganti/.m2/repository/io/netty/netty-resolver-dns-native-macos/4.1.96.Final/netty-resolver-dns-native-macos-4.1.96.Final-osx-aarch_64.jar:/Users/bhargavajulaganti/.m2/repository/io/netty/netty-tcnative-boringssl-static/2.0.61.Final/netty-tcnative-boringssl-static-2.0.61.Final-linux-x86_64.jar:/Users/bhargavajulaganti/.m2/repository/io/netty/netty-tcnative-classes/2.0.61.Final/netty-tcnative-classes-2.0.61.Final.jar:/Users/bhargavajulaganti/.m2/repository/io/netty/netty-tcnative-boringssl-static/2.0.61.Final/netty-tcnative-boringssl-static-2.0.61.Final-linux-aarch_64.jar:/Users/bhargavajulaganti/.m2/repository/io/netty/netty-tcnative-boringssl-static/2.0.61.Final/netty-tcnative-boringssl-static-2.0.61.Final-osx-x86_64.jar:/Users/bhargavajulaganti/.m2/repository/io/netty/netty-tcnative-boringssl-static/2.0.61.Final/netty-tcnative-boringssl-static-2.0.61.Final-osx-aarch_64.jar:/Users/bhargavajulaganti/.m2/repository/io/netty/netty-tcnative-boringssl-static/2.0.61.Final/netty-tcnative-boringssl-static-2.0.61.Final-windows-x86_64.jar:/Users/bhargavajulaganti/.m2/repository/com/aayushatharva/brotli4j/brotli4j/1.12.0/brotli4j-1.12.0.jar:/Users/bhargavajulaganti/.m2/repository/com/aayushatharva/brotli4j/service/1.12.0/service-1.12.0.jar:/Users/bhargavajulaganti/.m2/repository/com/aayushatharva/brotli4j/native-osx-aarch64/1.12.0/native-osx-aarch64-1.12.0.jar:/Users/bhargavajulaganti/.m2/repository/org/apache/httpcomponents/httpclient/4.5.14/httpclient-4.5.14.jar:/Users/bhargavajulaganti/.m2/repository/org/apache/httpcomponents/httpcore/4.4.16/httpcore-4.4.16.jar:/Users/bhargavajulaganti/.m2/repository/commons-codec/commons-codec/1.16.0/commons-codec-1.16.0.jar:/Users/bhargavajulaganti/.m2/repository/ch/qos/logback/logback-classic/1.4.11/logback-classic-1.4.11.jar:/Users/bhargavajulaganti/.m2/repository/ch/qos/logback/logback-core/1.4.11/logback-core-1.4.11.jar:/Users/bhargavajulaganti/.m2/repository/org/slf4j/jcl-over-slf4j/2.0.9/jcl-over-slf4j-2.0.9.jar:/Users/bhargavajulaganti/.m2/repository/org/antlr/antlr4-runtime/4.11.1/antlr4-runtime-4.11.1.jar:/Users/bhargavajulaganti/.m2/repository/com/jayway/jsonpath/json-path/2.8.0/json-path-2.8.0.jar:/Users/bhargavajulaganti/.m2/repository/net/minidev/json-smart/2.4.10/json-smart-2.4.10.jar:/Users/bhargavajulaganti/.m2/repository/net/minidev/accessors-smart/2.4.9/accessors-smart-2.4.9.jar:/Users/bhargavajulaganti/.m2/repository/org/ow2/asm/asm/9.3/asm-9.3.jar:/Users/bhargavajulaganti/.m2/repository/org/yaml/snakeyaml/2.0/snakeyaml-2.0.jar:/Users/bhargavajulaganti/.m2/repository/de/siegmar/fastcsv/2.2.1/fastcsv-2.2.1.jar:/Users/bhargavajulaganti/.m2/repository/info/picocli/picocli/4.7.1/picocli-4.7.1.jar:/Users/bhargavajulaganti/.m2/repository/io/github/classgraph/classgraph/4.8.160/classgraph-4.8.160.jar:/Users/bhargavajulaganti/.m2/repository/io/github/t12y/resemble/1.0.2/resemble-1.0.2.jar:/Users/bhargavajulaganti/.m2/repository/io/github/t12y/ssim/1.0.0/ssim-1.0.0.jar:/Users/bhargavajulaganti/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.3/junit-jupiter-api-5.9.3.jar:/Users/bhargavajulaganti/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/bhargavajulaganti/.m2/repository/org/junit/platform/junit-platform-commons/1.9.3/junit-platform-commons-1.9.3.jar:/Users/bhargavajulaganti/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/bhargavajulaganti/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.9.3/junit-jupiter-engine-5.9.3.jar:/Users/bhargavajulaganti/.m2/repository/org/junit/platform/junit-platform-engine/1.9.3/junit-platform-engine-1.9.3.jar:"/>
@@ -30,7 +30,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="apple.awt.application.name" value="ForkedBooter"/>
-    <property name="surefire.real.class.path" value="/Users/bhargavajulaganti/Documents/dev/my-karate-demo/myproject/target/surefire/surefirebooter-20240601194656874_3.jar"/>
+    <property name="surefire.real.class.path" value="/Users/bhargavajulaganti/Documents/dev/my-karate-demo/myproject/target/surefire/surefirebooter-20240601201123544_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="21.0.3"/>
@@ -59,10 +59,235 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="testParallel" classname="examples.ExamplesTest" time="2.092">
-    <system-out><![CDATA[19:46:57.597 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
-19:46:57.964 [main] INFO  com.intuit.karate - karate.env system property was: null 
-19:46:58.100 [main] DEBUG com.intuit.karate - request:
+  <testcase name="testParallel" classname="examples.ExamplesTest" time="5.852">
+    <system-out><![CDATA[20:11:24.246 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+20:11:24.603 [main] INFO  com.intuit.karate - karate.env system property was: null 
+20:11:24.636 [main] DEBUG com.intuit.karate.shell.Command - found / verified free local port: 9222
+20:11:24.641 [chrome_1717287084630] DEBUG c.i.k.driver.chrome_1717287084630 - command: [/Applications/Google Chrome.app/Contents/MacOS/Google Chrome, --remote-debugging-port=9222, --remote-allow-origins=*, --no-first-run, --user-data-dir=/Users/bhargavajulaganti/Documents/dev/my-karate-demo/myproject/target/chrome_1717287084630, --disable-popup-blocking], working dir: target/chrome_1717287084630
+20:11:24.643 [main] DEBUG c.i.k.driver.chrome_1717287084630 - poll attempt #0 for port to be ready - localhost:9222
+20:11:24.899 [main] DEBUG c.i.k.driver.chrome_1717287084630 - poll attempt #1 for port to be ready - localhost:9222
+20:11:24.913 [chrome_1717287084630-out] DEBUG c.i.k.driver.chrome_1717287084630 - 
+20:11:24.916 [chrome_1717287084630-out] DEBUG c.i.k.driver.chrome_1717287084630 - DevTools listening on ws://127.0.0.1:9222/devtools/browser/f81b057e-38f3-4126-8f4b-f39ac0ec0bfe
+20:11:25.152 [main] DEBUG c.i.k.driver.chrome_1717287084630 - poll attempt #2 for port to be ready - localhost:9222
+20:11:25.344 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:9222/json
+1 > Host: localhost:9222
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.3)
+1 > Accept-Encoding: gzip,deflate
+
+
+20:11:25.355 [main] DEBUG com.intuit.karate - response time in milliseconds: 8
+1 < 200
+1 < Content-Security-Policy: frame-ancestors 'none'
+1 < Content-Length: 1242
+1 < Content-Type: application/json; charset=UTF-8
+[ {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:9222/devtools/page/D73768E18F4B06F85B62AC47E81D4298",
+   "id": "D73768E18F4B06F85B62AC47E81D4298",
+   "title": "New Tab",
+   "type": "page",
+   "url": "chrome://newtab/",
+   "webSocketDebuggerUrl": "ws://localhost:9222/devtools/page/D73768E18F4B06F85B62AC47E81D4298"
+}, {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:9222/devtools/page/31EE353D7ACD42F049C1097CD39ADD13",
+   "id": "31EE353D7ACD42F049C1097CD39ADD13",
+   "title": "Google Network Speech",
+   "type": "background_page",
+   "url": "chrome-extension://neajdppkdcdipfabeoofebfddakdcjhd/_generated_background_page.html",
+   "webSocketDebuggerUrl": "ws://localhost:9222/devtools/page/31EE353D7ACD42F049C1097CD39ADD13"
+}, {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:9222/devtools/page/9BF57A8B24528E59F2296957DBEFED4E",
+   "id": "9BF57A8B24528E59F2296957DBEFED4E",
+   "title": "Google Hangouts",
+   "type": "background_page",
+   "url": "chrome-extension://nkeimhogjdpnpccoofpliimaahmaaome/background.html",
+   "webSocketDebuggerUrl": "ws://localhost:9222/devtools/page/9BF57A8B24528E59F2296957DBEFED4E"
+} ]
+
+
+20:11:25.358 [main] DEBUG com.intuit.karate.shell.Command - ready to accept http connections after 183 ms - http://localhost:9222/json
+20:11:25.361 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:9222/json
+1 > Host: localhost:9222
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.3)
+1 > Accept-Encoding: gzip,deflate
+
+
+20:11:25.362 [main] DEBUG com.intuit.karate - response time in milliseconds: 0
+1 < 200
+1 < Content-Security-Policy: frame-ancestors 'none'
+1 < Content-Length: 1242
+1 < Content-Type: application/json; charset=UTF-8
+[ {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:9222/devtools/page/D73768E18F4B06F85B62AC47E81D4298",
+   "id": "D73768E18F4B06F85B62AC47E81D4298",
+   "title": "New Tab",
+   "type": "page",
+   "url": "chrome://newtab/",
+   "webSocketDebuggerUrl": "ws://localhost:9222/devtools/page/D73768E18F4B06F85B62AC47E81D4298"
+}, {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:9222/devtools/page/31EE353D7ACD42F049C1097CD39ADD13",
+   "id": "31EE353D7ACD42F049C1097CD39ADD13",
+   "title": "Google Network Speech",
+   "type": "background_page",
+   "url": "chrome-extension://neajdppkdcdipfabeoofebfddakdcjhd/_generated_background_page.html",
+   "webSocketDebuggerUrl": "ws://localhost:9222/devtools/page/31EE353D7ACD42F049C1097CD39ADD13"
+}, {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:9222/devtools/page/9BF57A8B24528E59F2296957DBEFED4E",
+   "id": "9BF57A8B24528E59F2296957DBEFED4E",
+   "title": "Google Hangouts",
+   "type": "background_page",
+   "url": "chrome-extension://nkeimhogjdpnpccoofpliimaahmaaome/background.html",
+   "webSocketDebuggerUrl": "ws://localhost:9222/devtools/page/9BF57A8B24528E59F2296957DBEFED4E"
+} ]
+
+
+20:11:25.368 [main] DEBUG c.i.k.driver.chrome_1717287084630 - root frame id: D73768E18F4B06F85B62AC47E81D4298
+20:11:25.458 [nioEventLoopGroup-2-1] DEBUG c.i.k.http.WebSocketClientHandler - websocket client connected
+20:11:25.459 [main] DEBUG c.i.k.driver.chrome_1717287084630 - >> {"id":1,"method":"Target.attachToTarget","params":{"targetId":"D73768E18F4B06F85B62AC47E81D4298","flatten":true}}
+20:11:25.467 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1717287084630 - << {"method":"Target.attachedToTarget","params":{"sessionId":"D806336A5D6F149DA11948A01469EB4B","targetInfo":{"targetId":"D73768E18F4B06F85B62AC47E81D4298","type":"page","title":"New Tab","url":"chrome://newtab/","attached":true,"canAccessOpener":false,"browserContextId":"5B2966E0B273275E4732AE740BAF9A0A"},"waitingForDebugger":false}}
+20:11:25.468 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1717287084630 - << {"id":1,"result":{"sessionId":"D806336A5D6F149DA11948A01469EB4B"}}
+20:11:25.468 [main] DEBUG c.i.k.driver.chrome_1717287084630 - >> {"id":2,"sessionId":"D806336A5D6F149DA11948A01469EB4B","method":"Target.activateTarget","params":{"targetId":"D73768E18F4B06F85B62AC47E81D4298"}}
+20:11:25.471 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1717287084630 - << {"id":2,"result":{},"sessionId":"D806336A5D6F149DA11948A01469EB4B"}
+20:11:25.471 [main] DEBUG c.i.k.driver.chrome_1717287084630 - >> {"id":3,"sessionId":"D806336A5D6F149DA11948A01469EB4B","method":"Target.setDiscoverTargets","params":{"discover":true}}
+20:11:25.490 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1717287084630 - << {"method":"Target.targetCreated","params":{"targetInfo":{"targetId":"31EE353D7ACD42F049C1097CD39ADD13","type":"background_page","title":"Google Network Speech","url":"chrome-extension://neajdppkdcdipfabeoofebfddakdcjhd/_generated_background_page.html","attached":false,"canAccessOpener":false,"browserContextId":"5B2966E0B273275E4732AE740BAF9A0A"}},"sessionId":"D806336A5D6F149DA11948A01469EB4B"}
+20:11:25.491 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1717287084630 - << {"method":"Target.targetCreated","params":{"targetInfo":{"targetId":"9BF57A8B24528E59F2296957DBEFED4E","type":"background_page","title":"Google Hangouts","url":"chrome-extension://nkeimhogjdpnpccoofpliimaahmaaome/background.html","attached":false,"canAccessOpener":false,"browserContextId":"5B2966E0B273275E4732AE740BAF9A0A"}},"sessionId":"D806336A5D6F149DA11948A01469EB4B"}
+20:11:25.494 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1717287084630 - << {"method":"Target.targetCreated","params":{"targetInfo":{"targetId":"D73768E18F4B06F85B62AC47E81D4298","type":"page","title":"New Tab","url":"chrome://newtab/","attached":true,"canAccessOpener":false,"browserContextId":"5B2966E0B273275E4732AE740BAF9A0A"}},"sessionId":"D806336A5D6F149DA11948A01469EB4B"}
+20:11:25.494 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1717287084630 - << {"id":3,"result":{},"sessionId":"D806336A5D6F149DA11948A01469EB4B"}
+20:11:25.495 [main] DEBUG c.i.k.driver.chrome_1717287084630 - >> {"id":4,"sessionId":"D806336A5D6F149DA11948A01469EB4B","method":"Page.enable"}
+20:11:25.498 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1717287084630 - << {"id":4,"result":{},"sessionId":"D806336A5D6F149DA11948A01469EB4B"}
+20:11:25.498 [main] DEBUG c.i.k.driver.chrome_1717287084630 - >> {"id":5,"sessionId":"D806336A5D6F149DA11948A01469EB4B","method":"Runtime.enable"}
+20:11:25.500 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1717287084630 - << {"method":"Runtime.executionContextCreated","params":{"context":{"id":3,"origin":"chrome://new-tab-page","name":"","uniqueId":"-1403291397946360421.-5747445849275573290","auxData":{"isDefault":true,"type":"default","frameId":"981EA65B3B74D172CFB10B919B33C526"}}},"sessionId":"D806336A5D6F149DA11948A01469EB4B"}
+20:11:25.501 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1717287084630 - << {"method":"Runtime.executionContextCreated","params":{"context":{"id":2,"origin":"chrome://new-tab-page","name":"","uniqueId":"-1920602181944153848.8253023904813292531","auxData":{"isDefault":true,"type":"default","frameId":"51A9790595FE0E2135854F4FD7CA6293"}}},"sessionId":"D806336A5D6F149DA11948A01469EB4B"}
+20:11:25.501 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1717287084630 - << {"method":"Runtime.executionContextCreated","params":{"context":{"id":1,"origin":"chrome://new-tab-page","name":"","uniqueId":"7111914271827185657.1374230488485300742","auxData":{"isDefault":true,"type":"default","frameId":"D73768E18F4B06F85B62AC47E81D4298"}}},"sessionId":"D806336A5D6F149DA11948A01469EB4B"}
+20:11:25.502 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1717287084630 - << {"id":5,"result":{},"sessionId":"D806336A5D6F149DA11948A01469EB4B"}
+20:11:25.502 [main] DEBUG c.i.k.driver.chrome_1717287084630 - >> {"id":6,"sessionId":"D806336A5D6F149DA11948A01469EB4B","method":"Browser.getWindowForTarget","params":{"targetId":"D73768E18F4B06F85B62AC47E81D4298"}}
+20:11:25.504 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1717287084630 - << {"id":6,"result":{"windowId":1099247805,"bounds":{"left":22,"top":61,"width":1200,"height":939,"windowState":"normal"}},"sessionId":"D806336A5D6F149DA11948A01469EB4B"}
+20:11:25.563 [main] DEBUG c.i.k.driver.chrome_1717287084630 - >> {"id":7,"sessionId":"D806336A5D6F149DA11948A01469EB4B","method":"Page.navigate","params":{"url":"https:\/\/google.com"}}
+20:11:25.568 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1717287084630 - << {"method":"Page.frameStartedLoading","params":{"frameId":"D73768E18F4B06F85B62AC47E81D4298"},"sessionId":"D806336A5D6F149DA11948A01469EB4B"}
+20:11:25.673 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1717287084630 - << {"method":"Target.targetCreated","params":{"targetInfo":{"targetId":"981EA65B3B74D172CFB10B919B33C526","type":"iframe","title":"","url":"","attached":false,"canAccessOpener":false,"browserContextId":"5B2966E0B273275E4732AE740BAF9A0A"}},"sessionId":"D806336A5D6F149DA11948A01469EB4B"}
+20:11:25.675 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1717287084630 - << {"method":"Target.targetInfoChanged","params":{"targetInfo":{"targetId":"981EA65B3B74D172CFB10B919B33C526","type":"iframe","title":"chrome-untrusted://new-tab-page/one-google-bar?paramsencoded=","url":"chrome-untrusted://new-tab-page/one-google-bar?paramsencoded=","attached":false,"canAccessOpener":false,"browserContextId":"5B2966E0B273275E4732AE740BAF9A0A"}},"sessionId":"D806336A5D6F149DA11948A01469EB4B"}
+20:11:25.676 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1717287084630 - << {"method":"Page.frameDetached","params":{"frameId":"981EA65B3B74D172CFB10B919B33C526","reason":"swap"},"sessionId":"D806336A5D6F149DA11948A01469EB4B"}
+20:11:25.677 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1717287084630 - << {"method":"Runtime.executionContextDestroyed","params":{"executionContextId":3,"executionContextUniqueId":"-1403291397946360421.-5747445849275573290"},"sessionId":"D806336A5D6F149DA11948A01469EB4B"}
+20:11:26.664 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1717287084630 - << {"id":7,"result":{"frameId":"D73768E18F4B06F85B62AC47E81D4298","loaderId":"71593842E3FCE49A2D6B34F89819C959"},"sessionId":"D806336A5D6F149DA11948A01469EB4B"}
+20:11:26.670 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1717287084630 - << {"method":"Runtime.executionContextsCleared","params":{},"sessionId":"D806336A5D6F149DA11948A01469EB4B"}
+20:11:26.672 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1717287084630 - << {"method":"Target.targetInfoChanged","params":{"targetInfo":{"targetId":"D73768E18F4B06F85B62AC47E81D4298","type":"page","title":"google.com","url":"https://www.google.com/","attached":true,"canAccessOpener":false,"browserContextId":"5B2966E0B273275E4732AE740BAF9A0A"}},"sessionId":"D806336A5D6F149DA11948A01469EB4B"}
+20:11:26.673 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1717287084630 - << {"method":"Runtime.executionContextsCleared","params":{},"sessionId":"D806336A5D6F149DA11948A01469EB4B"}
+20:11:26.673 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1717287084630 - << {"method":"Page.frameNavigated","params":{"frame":{"id":"D73768E18F4B06F85B62AC47E81D4298","loaderId":"71593842E3FCE49A2D6B34F89819C959","url":"https://www.google.com/","domainAndRegistry":"google.com","securityOrigin":"https://www.google.com","mimeType":"text/html","adFrameStatus":{"adFrameType":"none"},"secureContextType":"Secure","crossOriginIsolatedContextType":"NotIsolated","gatedAPIFeatures":[]},"type":"Navigation"},"sessionId":"D806336A5D6F149DA11948A01469EB4B"}
+20:11:26.674 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1717287084630 - << {"method":"Runtime.executionContextCreated","params":{"context":{"id":1,"origin":"https://www.google.com","name":"","uniqueId":"564421900361150660.-4593229000617900175","auxData":{"isDefault":true,"type":"default","frameId":"D73768E18F4B06F85B62AC47E81D4298"}}},"sessionId":"D806336A5D6F149DA11948A01469EB4B"}
+20:11:26.675 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1717287084630 - << {"method":"Page.frameDetached","params":{"frameId":"981EA65B3B74D172CFB10B919B33C526","reason":"remove"},"sessionId":"D806336A5D6F149DA11948A01469EB4B"}
+20:11:26.675 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1717287084630 - << {"method":"Target.targetDestroyed","params":{"targetId":"981EA65B3B74D172CFB10B919B33C526"},"sessionId":"D806336A5D6F149DA11948A01469EB4B"}
+20:11:27.026 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1717287084630 - << {"method":"Target.targetInfoChanged","params":{"targetInfo":{"targetId":"D73768E18F4B06F85B62AC47E81D4298","type":"page","title":"Google","url":"https://www.google.com/","attached":true,"canAccessOpener":false,"browserContextId":"5B2966E0B273275E4732AE740BAF9A0A"}},"sessionId":"D806336A5D6F149DA11948A01469EB4B"}
+20:11:27.030 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1717287084630 - << {"method":"Page.navigatedWithinDocument","params":{"frameId":"D73768E18F4B06F85B62AC47E81D4298","url":"https://www.google.com/"},"sessionId":"D806336A5D6F149DA11948A01469EB4B"}
+20:11:27.031 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1717287084630 - << {"method":"Page.domContentEventFired","params":{"timestamp":2079.252342},"sessionId":"D806336A5D6F149DA11948A01469EB4B"}
+20:11:27.040 [main] DEBUG c.i.k.driver.chrome_1717287084630 - >> {"id":8,"sessionId":"D806336A5D6F149DA11948A01469EB4B","method":"Runtime.evaluate","params":{"expression":"var e = document.querySelector(\"[name=q][name=q]\"); e.focus(); try { e.selectionStart = e.selectionEnd = e.value.length } catch(x) {}","returnByValue":true}}
+20:11:27.056 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1717287084630 - << {"method":"Page.frameAttached","params":{"frameId":"562CCFEA346CE69C29746A7E76C2090E","parentFrameId":"D73768E18F4B06F85B62AC47E81D4298","stack":{"callFrames":[{"functionName":"AC","scriptId":"13","url":"https://www.gstatic.com/og/_/js/k=og.qtm.en_US.Labvqkb6gM0.2019.O/rt=j/m=qabr,q_d,qcwid,qapid,qald,q_dg/exm=qaaw,qadd,qaid,qein,qhaw,qhba,qhbr,qhch,qhga,qhid,qhin/d=1/ed=1/rs=AA2YrTtSSgfwXcuJQaY227SqFENIJRc8eA","lineNumber":415,"columnNumber":273},{"functionName":"FC","scriptId":"13","url":"https://www.gstatic.com/og/_/js/k=og.qtm.en_US.Labvqkb6gM0.2019.O/rt=j/m=qabr,q_d,qcwid,qapid,qald,q_dg/exm=qaaw,qadd,qaid,qein,qhaw,qhba,qhbr,qhch,qhga,qhid,qhin/d=1/ed=1/rs=AA2YrTtSSgfwXcuJQaY227SqFENIJRc8eA","lineNumber":417,"columnNumber":447},{"functionName":"YC","scriptId":"13","url":"https://www.gstatic.com/og/_/js/k=og.qtm.en_US.Labvqkb6gM0.2019.O/rt=j/m=qabr,q_d,qcwid,qapid,qald,q_dg/exm=qaaw,qadd,qaid,qein,qhaw,qhba,qhbr,qhch,qhga,qhid,qhin/d=1/ed=1/rs=AA2YrTtSSgfwXcuJQaY227SqFENIJRc8eA","lineNumber":429,"columnN ...
+20:11:27.056 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1717287084630 - << {"method":"Page.frameStartedLoading","params":{"frameId":"562CCFEA346CE69C29746A7E76C2090E"},"sessionId":"D806336A5D6F149DA11948A01469EB4B"}
+20:11:27.058 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1717287084630 - << {"id":8,"result":{"result":{"type":"number","value":0,"description":"0"}},"sessionId":"D806336A5D6F149DA11948A01469EB4B"}
+20:11:27.060 [main] DEBUG c.i.k.driver.chrome_1717287084630 - >> {"id":9,"sessionId":"D806336A5D6F149DA11948A01469EB4B","method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"rawKeyDown","text":"k","windowsVirtualKeyCode":107}}
+20:11:27.061 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1717287084630 - << {"id":9,"result":{},"sessionId":"D806336A5D6F149DA11948A01469EB4B"}
+20:11:27.061 [main] DEBUG c.i.k.driver.chrome_1717287084630 - >> {"id":10,"sessionId":"D806336A5D6F149DA11948A01469EB4B","method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"char","text":"k","windowsVirtualKeyCode":107}}
+20:11:27.064 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1717287084630 - << {"id":10,"result":{},"sessionId":"D806336A5D6F149DA11948A01469EB4B"}
+20:11:27.064 [main] DEBUG c.i.k.driver.chrome_1717287084630 - >> {"id":11,"sessionId":"D806336A5D6F149DA11948A01469EB4B","method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"keyUp","text":"k","windowsVirtualKeyCode":107}}
+20:11:27.064 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1717287084630 - << {"id":11,"result":{},"sessionId":"D806336A5D6F149DA11948A01469EB4B"}
+20:11:27.065 [main] DEBUG c.i.k.driver.chrome_1717287084630 - >> {"id":12,"sessionId":"D806336A5D6F149DA11948A01469EB4B","method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"rawKeyDown","text":"a","windowsVirtualKeyCode":97}}
+20:11:27.065 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1717287084630 - << {"id":12,"result":{},"sessionId":"D806336A5D6F149DA11948A01469EB4B"}
+20:11:27.066 [main] DEBUG c.i.k.driver.chrome_1717287084630 - >> {"id":13,"sessionId":"D806336A5D6F149DA11948A01469EB4B","method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"char","text":"a","windowsVirtualKeyCode":97}}
+20:11:27.067 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1717287084630 - << {"id":13,"result":{},"sessionId":"D806336A5D6F149DA11948A01469EB4B"}
+20:11:27.067 [main] DEBUG c.i.k.driver.chrome_1717287084630 - >> {"id":14,"sessionId":"D806336A5D6F149DA11948A01469EB4B","method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"keyUp","text":"a","windowsVirtualKeyCode":97}}
+20:11:27.068 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1717287084630 - << {"id":14,"result":{},"sessionId":"D806336A5D6F149DA11948A01469EB4B"}
+20:11:27.068 [main] DEBUG c.i.k.driver.chrome_1717287084630 - >> {"id":15,"sessionId":"D806336A5D6F149DA11948A01469EB4B","method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"rawKeyDown","text":"r","windowsVirtualKeyCode":114}}
+20:11:27.069 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1717287084630 - << {"id":15,"result":{},"sessionId":"D806336A5D6F149DA11948A01469EB4B"}
+20:11:27.069 [main] DEBUG c.i.k.driver.chrome_1717287084630 - >> {"id":16,"sessionId":"D806336A5D6F149DA11948A01469EB4B","method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"char","text":"r","windowsVirtualKeyCode":114}}
+20:11:27.070 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1717287084630 - << {"id":16,"result":{},"sessionId":"D806336A5D6F149DA11948A01469EB4B"}
+20:11:27.073 [main] DEBUG c.i.k.driver.chrome_1717287084630 - >> {"id":17,"sessionId":"D806336A5D6F149DA11948A01469EB4B","method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"keyUp","text":"r","windowsVirtualKeyCode":114}}
+20:11:27.074 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1717287084630 - << {"id":17,"result":{},"sessionId":"D806336A5D6F149DA11948A01469EB4B"}
+20:11:27.074 [main] DEBUG c.i.k.driver.chrome_1717287084630 - >> {"id":18,"sessionId":"D806336A5D6F149DA11948A01469EB4B","method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"rawKeyDown","text":"a","windowsVirtualKeyCode":97}}
+20:11:27.075 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1717287084630 - << {"id":18,"result":{},"sessionId":"D806336A5D6F149DA11948A01469EB4B"}
+20:11:27.075 [main] DEBUG c.i.k.driver.chrome_1717287084630 - >> {"id":19,"sessionId":"D806336A5D6F149DA11948A01469EB4B","method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"char","text":"a","windowsVirtualKeyCode":97}}
+20:11:27.076 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1717287084630 - << {"id":19,"result":{},"sessionId":"D806336A5D6F149DA11948A01469EB4B"}
+20:11:27.077 [main] DEBUG c.i.k.driver.chrome_1717287084630 - >> {"id":20,"sessionId":"D806336A5D6F149DA11948A01469EB4B","method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"keyUp","text":"a","windowsVirtualKeyCode":97}}
+20:11:27.077 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1717287084630 - << {"id":20,"result":{},"sessionId":"D806336A5D6F149DA11948A01469EB4B"}
+20:11:27.077 [main] DEBUG c.i.k.driver.chrome_1717287084630 - >> {"id":21,"sessionId":"D806336A5D6F149DA11948A01469EB4B","method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"rawKeyDown","text":"t","windowsVirtualKeyCode":116}}
+20:11:27.078 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1717287084630 - << {"id":21,"result":{},"sessionId":"D806336A5D6F149DA11948A01469EB4B"}
+20:11:27.078 [main] DEBUG c.i.k.driver.chrome_1717287084630 - >> {"id":22,"sessionId":"D806336A5D6F149DA11948A01469EB4B","method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"char","text":"t","windowsVirtualKeyCode":116}}
+20:11:27.080 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1717287084630 - << {"id":22,"result":{},"sessionId":"D806336A5D6F149DA11948A01469EB4B"}
+20:11:27.080 [main] DEBUG c.i.k.driver.chrome_1717287084630 - >> {"id":23,"sessionId":"D806336A5D6F149DA11948A01469EB4B","method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"keyUp","text":"t","windowsVirtualKeyCode":116}}
+20:11:27.081 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1717287084630 - << {"id":23,"result":{},"sessionId":"D806336A5D6F149DA11948A01469EB4B"}
+20:11:27.081 [main] DEBUG c.i.k.driver.chrome_1717287084630 - >> {"id":24,"sessionId":"D806336A5D6F149DA11948A01469EB4B","method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"rawKeyDown","text":"e","windowsVirtualKeyCode":101}}
+20:11:27.082 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1717287084630 - << {"id":24,"result":{},"sessionId":"D806336A5D6F149DA11948A01469EB4B"}
+20:11:27.082 [main] DEBUG c.i.k.driver.chrome_1717287084630 - >> {"id":25,"sessionId":"D806336A5D6F149DA11948A01469EB4B","method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"char","text":"e","windowsVirtualKeyCode":101}}
+20:11:27.083 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1717287084630 - << {"id":25,"result":{},"sessionId":"D806336A5D6F149DA11948A01469EB4B"}
+20:11:27.084 [main] DEBUG c.i.k.driver.chrome_1717287084630 - >> {"id":26,"sessionId":"D806336A5D6F149DA11948A01469EB4B","method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"keyUp","text":"e","windowsVirtualKeyCode":101}}
+20:11:27.084 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1717287084630 - << {"id":26,"result":{},"sessionId":"D806336A5D6F149DA11948A01469EB4B"}
+20:11:27.084 [main] DEBUG c.i.k.driver.chrome_1717287084630 - >> {"id":27,"sessionId":"D806336A5D6F149DA11948A01469EB4B","method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"rawKeyDown","text":" ","windowsVirtualKeyCode":32}}
+20:11:27.085 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1717287084630 - << {"id":27,"result":{},"sessionId":"D806336A5D6F149DA11948A01469EB4B"}
+20:11:27.085 [main] DEBUG c.i.k.driver.chrome_1717287084630 - >> {"id":28,"sessionId":"D806336A5D6F149DA11948A01469EB4B","method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"char","text":" ","windowsVirtualKeyCode":32}}
+20:11:27.086 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1717287084630 - << {"id":28,"result":{},"sessionId":"D806336A5D6F149DA11948A01469EB4B"}
+20:11:27.087 [main] DEBUG c.i.k.driver.chrome_1717287084630 - >> {"id":29,"sessionId":"D806336A5D6F149DA11948A01469EB4B","method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"keyUp","text":" ","windowsVirtualKeyCode":32}}
+20:11:27.088 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1717287084630 - << {"id":29,"result":{},"sessionId":"D806336A5D6F149DA11948A01469EB4B"}
+20:11:27.088 [main] DEBUG c.i.k.driver.chrome_1717287084630 - >> {"id":30,"sessionId":"D806336A5D6F149DA11948A01469EB4B","method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"rawKeyDown","text":"d","windowsVirtualKeyCode":100}}
+20:11:27.089 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1717287084630 - << {"id":30,"result":{},"sessionId":"D806336A5D6F149DA11948A01469EB4B"}
+20:11:27.089 [main] DEBUG c.i.k.driver.chrome_1717287084630 - >> {"id":31,"sessionId":"D806336A5D6F149DA11948A01469EB4B","method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"char","text":"d","windowsVirtualKeyCode":100}}
+20:11:27.090 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1717287084630 - << {"id":31,"result":{},"sessionId":"D806336A5D6F149DA11948A01469EB4B"}
+20:11:27.090 [main] DEBUG c.i.k.driver.chrome_1717287084630 - >> {"id":32,"sessionId":"D806336A5D6F149DA11948A01469EB4B","method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"keyUp","text":"d","windowsVirtualKeyCode":100}}
+20:11:27.091 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1717287084630 - << {"id":32,"result":{},"sessionId":"D806336A5D6F149DA11948A01469EB4B"}
+20:11:27.091 [main] DEBUG c.i.k.driver.chrome_1717287084630 - >> {"id":33,"sessionId":"D806336A5D6F149DA11948A01469EB4B","method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"rawKeyDown","text":"s","windowsVirtualKeyCode":115}}
+20:11:27.091 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1717287084630 - << {"id":33,"result":{},"sessionId":"D806336A5D6F149DA11948A01469EB4B"}
+20:11:27.092 [main] DEBUG c.i.k.driver.chrome_1717287084630 - >> {"id":34,"sessionId":"D806336A5D6F149DA11948A01469EB4B","method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"char","text":"s","windowsVirtualKeyCode":115}}
+20:11:27.093 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1717287084630 - << {"id":34,"result":{},"sessionId":"D806336A5D6F149DA11948A01469EB4B"}
+20:11:27.093 [main] DEBUG c.i.k.driver.chrome_1717287084630 - >> {"id":35,"sessionId":"D806336A5D6F149DA11948A01469EB4B","method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"keyUp","text":"s","windowsVirtualKeyCode":115}}
+20:11:27.093 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1717287084630 - << {"id":35,"result":{},"sessionId":"D806336A5D6F149DA11948A01469EB4B"}
+20:11:27.094 [main] DEBUG c.i.k.driver.chrome_1717287084630 - >> {"id":36,"sessionId":"D806336A5D6F149DA11948A01469EB4B","method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"rawKeyDown","text":"l","windowsVirtualKeyCode":108}}
+20:11:27.094 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1717287084630 - << {"id":36,"result":{},"sessionId":"D806336A5D6F149DA11948A01469EB4B"}
+20:11:27.094 [main] DEBUG c.i.k.driver.chrome_1717287084630 - >> {"id":37,"sessionId":"D806336A5D6F149DA11948A01469EB4B","method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"char","text":"l","windowsVirtualKeyCode":108}}
+20:11:27.096 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1717287084630 - << {"id":37,"result":{},"sessionId":"D806336A5D6F149DA11948A01469EB4B"}
+20:11:27.096 [main] DEBUG c.i.k.driver.chrome_1717287084630 - >> {"id":38,"sessionId":"D806336A5D6F149DA11948A01469EB4B","method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"keyUp","text":"l","windowsVirtualKeyCode":108}}
+20:11:27.096 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1717287084630 - << {"id":38,"result":{},"sessionId":"D806336A5D6F149DA11948A01469EB4B"}
+20:11:27.099 [main] DEBUG c.i.k.driver.chrome_1717287084630 - >> {"id":39,"sessionId":"D806336A5D6F149DA11948A01469EB4B","method":"Runtime.evaluate","params":{"expression":"document.querySelector(\"input[name=btnI]\").click()","returnByValue":true}}
+20:11:27.101 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1717287084630 - << {"id":39,"result":{"result":{"type":"undefined"}},"sessionId":"D806336A5D6F149DA11948A01469EB4B"}
+20:11:27.102 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1717287084630 - << {"method":"Page.frameScheduledNavigation","params":{"frameId":"D73768E18F4B06F85B62AC47E81D4298","delay":0,"reason":"formSubmissionGet","url":"https://www.google.com/search?q=karate+dsl&btnI=I%27m+Feeling+Lucky&sca_esv=f726501b840aca30&source=hp&ei=rrhbZvuXG6Woxc8PmM-p6A4&iflsig=AL9hbdgAAAAAZlvGvsxg2FZPzvqCBACeezOHmeOU2Euj&ved=0ahUKEwj7po_20LuGAxUlVPEDHZhnCu0Q19QECBE"},"sessionId":"D806336A5D6F149DA11948A01469EB4B"}
+20:11:27.102 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1717287084630 - << {"method":"Page.frameRequestedNavigation","params":{"frameId":"D73768E18F4B06F85B62AC47E81D4298","reason":"formSubmissionGet","url":"https://www.google.com/search?q=karate+dsl&btnI=I%27m+Feeling+Lucky&sca_esv=f726501b840aca30&source=hp&ei=rrhbZvuXG6Woxc8PmM-p6A4&iflsig=AL9hbdgAAAAAZlvGvsxg2FZPzvqCBACeezOHmeOU2Euj&ved=0ahUKEwj7po_20LuGAxUlVPEDHZhnCu0Q19QECBE","disposition":"currentTab"},"sessionId":"D806336A5D6F149DA11948A01469EB4B"}
+20:11:27.102 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1717287084630 - << {"method":"Page.frameStoppedLoading","params":{"frameId":"562CCFEA346CE69C29746A7E76C2090E"},"sessionId":"D806336A5D6F149DA11948A01469EB4B"}
+20:11:27.104 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1717287084630 - << {"method":"Page.frameStartedLoading","params":{"frameId":"D73768E18F4B06F85B62AC47E81D4298"},"sessionId":"D806336A5D6F149DA11948A01469EB4B"}
+20:11:27.104 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1717287084630 - << {"method":"Page.frameDetached","params":{"frameId":"562CCFEA346CE69C29746A7E76C2090E","reason":"remove"},"sessionId":"D806336A5D6F149DA11948A01469EB4B"}
+20:11:27.104 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1717287084630 - << {"method":"Page.frameClearedScheduledNavigation","params":{"frameId":"D73768E18F4B06F85B62AC47E81D4298"},"sessionId":"D806336A5D6F149DA11948A01469EB4B"}
+20:11:27.106 [main] DEBUG c.i.k.driver.chrome_1717287084630 - >> {"id":40,"sessionId":"D806336A5D6F149DA11948A01469EB4B","method":"Runtime.evaluate","params":{"expression":"document.location.href","returnByValue":true}}
+20:11:27.487 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1717287084630 - << {"method":"Target.targetCreated","params":{"targetInfo":{"targetId":"142B764A6ACBC22560EAF3A6702ACB6D","type":"app","title":"Chrome Web Store Payments","url":"","attached":false,"canAccessOpener":false,"browserContextId":"5B2966E0B273275E4732AE740BAF9A0A"}},"sessionId":"D806336A5D6F149DA11948A01469EB4B"}
+20:11:27.522 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1717287084630 - << {"method":"Target.targetInfoChanged","params":{"targetInfo":{"targetId":"142B764A6ACBC22560EAF3A6702ACB6D","type":"background_page","title":"Chrome Web Store Payments","url":"chrome-extension://nmmhkkegccagdldgiimedpiccmgmieda/_generated_background_page.html","attached":false,"canAccessOpener":false,"browserContextId":"5B2966E0B273275E4732AE740BAF9A0A"}},"sessionId":"D806336A5D6F149DA11948A01469EB4B"}
+20:11:27.549 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1717287084630 - << {"method":"Target.targetCreated","params":{"targetInfo":{"targetId":"F63C2745459FAC027AF51FC60CD2D8CB","type":"other","title":"","url":"","attached":false,"canAccessOpener":false,"browserContextId":"5B2966E0B273275E4732AE740BAF9A0A"}},"sessionId":"D806336A5D6F149DA11948A01469EB4B"}
+20:11:27.581 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1717287084630 - << {"method":"Target.targetInfoChanged","params":{"targetInfo":{"targetId":"F63C2745459FAC027AF51FC60CD2D8CB","type":"background_page","title":"Google Docs Offline","url":"chrome-extension://ghbmnnjooekpmoecnnnilnnbdlolhkhi/_generated_background_page.html","attached":false,"canAccessOpener":false,"browserContextId":"5B2966E0B273275E4732AE740BAF9A0A"}},"sessionId":"D806336A5D6F149DA11948A01469EB4B"}
+20:11:28.444 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1717287084630 - << {"method":"Runtime.executionContextsCleared","params":{},"sessionId":"D806336A5D6F149DA11948A01469EB4B"}
+20:11:28.449 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1717287084630 - << {"method":"Target.targetInfoChanged","params":{"targetInfo":{"targetId":"D73768E18F4B06F85B62AC47E81D4298","type":"page","title":"github.com/karatelabs/karate","url":"https://github.com/karatelabs/karate","attached":true,"canAccessOpener":false,"browserContextId":"5B2966E0B273275E4732AE740BAF9A0A"}},"sessionId":"D806336A5D6F149DA11948A01469EB4B"}
+20:11:28.450 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1717287084630 - << {"method":"Runtime.executionContextsCleared","params":{},"sessionId":"D806336A5D6F149DA11948A01469EB4B"}
+20:11:28.450 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1717287084630 - << {"method":"Page.frameNavigated","params":{"frame":{"id":"D73768E18F4B06F85B62AC47E81D4298","loaderId":"FC6FB14E1EA24B28E8454B3EAD2099FF","url":"https://github.com/karatelabs/karate","domainAndRegistry":"github.com","securityOrigin":"https://github.com","mimeType":"text/html","adFrameStatus":{"adFrameType":"none"},"secureContextType":"Secure","crossOriginIsolatedContextType":"NotIsolated","gatedAPIFeatures":[]},"type":"Navigation"},"sessionId":"D806336A5D6F149DA11948A01469EB4B"}
+20:11:28.450 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1717287084630 - << {"method":"Runtime.executionContextCreated","params":{"context":{"id":1,"origin":"https://github.com","name":"","uniqueId":"8147850293455662732.-2225629275846531184","auxData":{"isDefault":true,"type":"default","frameId":"D73768E18F4B06F85B62AC47E81D4298"}}},"sessionId":"D806336A5D6F149DA11948A01469EB4B"}
+20:11:28.451 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1717287084630 - << {"id":40,"result":{"result":{"type":"string","value":"https://github.com/karatelabs/karate"}},"sessionId":"D806336A5D6F149DA11948A01469EB4B"}
+20:11:28.452 [main] DEBUG c.i.k.driver.chrome_1717287084630 - >> {"id":41,"sessionId":"D806336A5D6F149DA11948A01469EB4B","method":"Target.closeTarget","params":{"targetId":"D73768E18F4B06F85B62AC47E81D4298"}}
+20:11:28.452 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1717287084630 - << {"id":41,"result":{"success":true},"sessionId":"D806336A5D6F149DA11948A01469EB4B"}
+20:11:28.454 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1717287084630 - << {"method":"Page.frameStoppedLoading","params":{"frameId":"D73768E18F4B06F85B62AC47E81D4298"},"sessionId":"D806336A5D6F149DA11948A01469EB4B"}
+20:11:28.455 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1717287084630 - << {"method":"Inspector.detached","params":{"reason":"Render process gone."}}
+20:11:28.455 [nioEventLoopGroup-2-1] DEBUG c.i.k.driver.chrome_1717287084630 - << {"method":"Inspector.detached","params":{"reason":"Render process gone."},"sessionId":"D806336A5D6F149DA11948A01469EB4B"}
+20:11:28.456 [nioEventLoopGroup-2-1] DEBUG c.i.k.http.WebSocketClientHandler - websocket closing
+20:11:28.456 [nioEventLoopGroup-2-1] DEBUG c.i.k.http.WebSocketClientHandler - websocket client disconnected
+20:11:28.457 [main] DEBUG com.intuit.karate.shell.Command - closing command: chrome_1717287084630
+20:11:28.472 [chrome_1717287084630] WARN  com.intuit.karate.shell.Command - exit code was non-zero: 137 - [/Applications/Google Chrome.app/Contents/MacOS/Google Chrome, --remote-debugging-port=9222, --remote-allow-origins=*, --no-first-run, --user-data-dir=/Users/bhargavajulaganti/Documents/dev/my-karate-demo/myproject/target/chrome_1717287084630, --disable-popup-blocking] working dir: target/chrome_1717287084630
+---------------------------------------------------------
+feature: classpath:examples/users/google.feature
+scenarios:  1 | passed:  1 | failed:  0 | time: 3.8370
+---------------------------------------------------------
+
+20:11:28.702 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 2 (0 remaining) classpath:examples/users/google.feature
+20:11:28.705 [main] INFO  com.intuit.karate - karate.env system property was: null 
+20:11:28.707 [main] DEBUG com.intuit.karate - request:
 1 > GET https://jsonplaceholder.typicode.com/users
 1 > Host: jsonplaceholder.typicode.com
 1 > Connection: Keep-Alive
@@ -70,19 +295,19 @@
 1 > Accept-Encoding: gzip,deflate
 
 
-19:46:58.401 [main] DEBUG com.intuit.karate - response time in milliseconds: 299
+20:11:28.942 [main] DEBUG com.intuit.karate - response time in milliseconds: 234
 1 < 200
-1 < Date: Sat, 01 Jun 2024 23:46:58 GMT
+1 < Date: Sun, 02 Jun 2024 00:11:28 GMT
 1 < Content-Type: application/json; charset=utf-8
 1 < Transfer-Encoding: chunked
 1 < Connection: keep-alive
-1 < Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1712667182&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=fs5EGbBJYfjPP%2FtvmQciCn0Tpl4qmxj6UB8kwl6YVU4%3D"}]}
-1 < Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1712667182&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=fs5EGbBJYfjPP%2FtvmQciCn0Tpl4qmxj6UB8kwl6YVU4%3D
+1 < Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1711138968&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=hPfOD%2B3sXn49sfOD8OSfYgBqoRlWmtGcit7d8NZqR6w%3D"}]}
+1 < Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1711138968&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=hPfOD%2B3sXn49sfOD8OSfYgBqoRlWmtGcit7d8NZqR6w%3D
 1 < Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
 1 < X-Powered-By: Express
 1 < X-Ratelimit-Limit: 1000
-1 < X-Ratelimit-Remaining: 999
-1 < X-Ratelimit-Reset: 1712667204
+1 < X-Ratelimit-Remaining: 998
+1 < X-Ratelimit-Reset: 1711138978
 1 < Vary: Origin, Accept-Encoding
 1 < Access-Control-Allow-Credentials: true
 1 < Cache-Control: max-age=43200
@@ -92,9 +317,9 @@
 1 < Etag: W/"160d-1eMSsxeJRfnVLRBmYJSbCiJZ1qQ"
 1 < Via: 1.1 vegur
 1 < CF-Cache-Status: HIT
-1 < Age: 8574
+1 < Age: 9033
 1 < Server: cloudflare
-1 < CF-RAY: 88d3160a6ce11041-ORD
+1 < CF-RAY: 88d339f1ee622956-ORD
 1 < alt-svc: h3=":443"; ma=86400
 [
   {
@@ -329,7 +554,7 @@
   }
 ]
 
-19:46:58.422 [main] DEBUG com.intuit.karate - request:
+20:11:28.951 [main] DEBUG com.intuit.karate - request:
 2 > GET https://jsonplaceholder.typicode.com/users/1
 2 > Host: jsonplaceholder.typicode.com
 2 > Connection: Keep-Alive
@@ -337,19 +562,19 @@
 2 > Accept-Encoding: gzip,deflate
 
 
-19:46:58.495 [main] DEBUG com.intuit.karate - response time in milliseconds: 72
+20:11:29.086 [main] DEBUG com.intuit.karate - response time in milliseconds: 133
 2 < 200
-2 < Date: Sat, 01 Jun 2024 23:46:58 GMT
+2 < Date: Sun, 02 Jun 2024 00:11:29 GMT
 2 < Content-Type: application/json; charset=utf-8
 2 < Transfer-Encoding: chunked
 2 < Connection: keep-alive
-2 < Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1711143888&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=o8kHRrwu%2BPR7e099lLBRcZ4VckcJu%2Bs%2FIeH3GpKnsrY%3D"}]}
-2 < Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1711143888&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=o8kHRrwu%2BPR7e099lLBRcZ4VckcJu%2Bs%2FIeH3GpKnsrY%3D
+2 < Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1711991962&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=8w%2B4q7IGA9KB6%2FDZh6dtPp%2BMpsSivmKvdtNEfaa5Zqk%3D"}]}
+2 < Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1711991962&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=8w%2B4q7IGA9KB6%2FDZh6dtPp%2BMpsSivmKvdtNEfaa5Zqk%3D
 2 < Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
 2 < X-Powered-By: Express
 2 < X-Ratelimit-Limit: 1000
 2 < X-Ratelimit-Remaining: 999
-2 < X-Ratelimit-Reset: 1711143898
+2 < X-Ratelimit-Reset: 1711991976
 2 < Vary: Origin, Accept-Encoding
 2 < Access-Control-Allow-Credentials: true
 2 < Cache-Control: max-age=43200
@@ -359,9 +584,9 @@
 2 < Etag: W/"1fd-+2Y3G3w049iSZtw5t1mzSnunngE"
 2 < Via: 1.1 vegur
 2 < CF-Cache-Status: HIT
-2 < Age: 11129
+2 < Age: 19201
 2 < Server: cloudflare
-2 < CF-RAY: 88d3160b0a172ca7-ORD
+2 < CF-RAY: 88d339f2d99c2aa8-ORD
 2 < alt-svc: h3=":443"; ma=86400
 {
   "id": 1,
@@ -387,340 +612,8 @@
   }
 }
 
----------------------------------------------------------
-feature: classpath:examples/users/admin.feature
-scenarios:  1 | passed:  1 | failed:  0 | time: 0.5174
----------------------------------------------------------
-
-19:46:58.720 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 2 (0 remaining) classpath:examples/users/admin.feature
-19:46:58.724 [main] INFO  com.intuit.karate - karate.env system property was: null 
-19:46:58.726 [main] DEBUG com.intuit.karate - request:
-1 > GET https://jsonplaceholder.typicode.com/users
-1 > Host: jsonplaceholder.typicode.com
-1 > Connection: Keep-Alive
-1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.3)
-1 > Accept-Encoding: gzip,deflate
-
-
-19:46:58.798 [main] DEBUG com.intuit.karate - response time in milliseconds: 71
-1 < 200
-1 < Date: Sat, 01 Jun 2024 23:46:58 GMT
-1 < Content-Type: application/json; charset=utf-8
-1 < Transfer-Encoding: chunked
-1 < Connection: keep-alive
-1 < Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1711138893&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=Z%2FhtYrag6sNR8s1740J4FsDhtZqSqdhuwnwcO19%2B%2BIw%3D"}]}
-1 < Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1711138893&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=Z%2FhtYrag6sNR8s1740J4FsDhtZqSqdhuwnwcO19%2B%2BIw%3D
-1 < Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
-1 < X-Powered-By: Express
-1 < X-Ratelimit-Limit: 1000
-1 < X-Ratelimit-Remaining: 999
-1 < X-Ratelimit-Reset: 1711138918
-1 < Vary: Origin, Accept-Encoding
-1 < Access-Control-Allow-Credentials: true
-1 < Cache-Control: max-age=43200
-1 < Pragma: no-cache
-1 < Expires: -1
-1 < X-Content-Type-Options: nosniff
-1 < Etag: W/"160d-1eMSsxeJRfnVLRBmYJSbCiJZ1qQ"
-1 < Via: 1.1 vegur
-1 < CF-Cache-Status: HIT
-1 < Age: 8192
-1 < Server: cloudflare
-1 < CF-RAY: 88d3160cef916203-ORD
-1 < alt-svc: h3=":443"; ma=86400
-[
-  {
-    "id": 1,
-    "name": "Leanne Graham",
-    "username": "Bret",
-    "email": "Sincere@april.biz",
-    "address": {
-      "street": "Kulas Light",
-      "suite": "Apt. 556",
-      "city": "Gwenborough",
-      "zipcode": "92998-3874",
-      "geo": {
-        "lat": "-37.3159",
-        "lng": "81.1496"
-      }
-    },
-    "phone": "1-770-736-8031 x56442",
-    "website": "hildegard.org",
-    "company": {
-      "name": "Romaguera-Crona",
-      "catchPhrase": "Multi-layered client-server neural-net",
-      "bs": "harness real-time e-markets"
-    }
-  },
-  {
-    "id": 2,
-    "name": "Ervin Howell",
-    "username": "Antonette",
-    "email": "Shanna@melissa.tv",
-    "address": {
-      "street": "Victor Plains",
-      "suite": "Suite 879",
-      "city": "Wisokyburgh",
-      "zipcode": "90566-7771",
-      "geo": {
-        "lat": "-43.9509",
-        "lng": "-34.4618"
-      }
-    },
-    "phone": "010-692-6593 x09125",
-    "website": "anastasia.net",
-    "company": {
-      "name": "Deckow-Crist",
-      "catchPhrase": "Proactive didactic contingency",
-      "bs": "synergize scalable supply-chains"
-    }
-  },
-  {
-    "id": 3,
-    "name": "Clementine Bauch",
-    "username": "Samantha",
-    "email": "Nathan@yesenia.net",
-    "address": {
-      "street": "Douglas Extension",
-      "suite": "Suite 847",
-      "city": "McKenziehaven",
-      "zipcode": "59590-4157",
-      "geo": {
-        "lat": "-68.6102",
-        "lng": "-47.0653"
-      }
-    },
-    "phone": "1-463-123-4447",
-    "website": "ramiro.info",
-    "company": {
-      "name": "Romaguera-Jacobson",
-      "catchPhrase": "Face to face bifurcated interface",
-      "bs": "e-enable strategic applications"
-    }
-  },
-  {
-    "id": 4,
-    "name": "Patricia Lebsack",
-    "username": "Karianne",
-    "email": "Julianne.OConner@kory.org",
-    "address": {
-      "street": "Hoeger Mall",
-      "suite": "Apt. 692",
-      "city": "South Elvis",
-      "zipcode": "53919-4257",
-      "geo": {
-        "lat": "29.4572",
-        "lng": "-164.2990"
-      }
-    },
-    "phone": "493-170-9623 x156",
-    "website": "kale.biz",
-    "company": {
-      "name": "Robel-Corkery",
-      "catchPhrase": "Multi-tiered zero tolerance productivity",
-      "bs": "transition cutting-edge web services"
-    }
-  },
-  {
-    "id": 5,
-    "name": "Chelsey Dietrich",
-    "username": "Kamren",
-    "email": "Lucio_Hettinger@annie.ca",
-    "address": {
-      "street": "Skiles Walks",
-      "suite": "Suite 351",
-      "city": "Roscoeview",
-      "zipcode": "33263",
-      "geo": {
-        "lat": "-31.8129",
-        "lng": "62.5342"
-      }
-    },
-    "phone": "(254)954-1289",
-    "website": "demarco.info",
-    "company": {
-      "name": "Keebler LLC",
-      "catchPhrase": "User-centric fault-tolerant solution",
-      "bs": "revolutionize end-to-end systems"
-    }
-  },
-  {
-    "id": 6,
-    "name": "Mrs. Dennis Schulist",
-    "username": "Leopoldo_Corkery",
-    "email": "Karley_Dach@jasper.info",
-    "address": {
-      "street": "Norberto Crossing",
-      "suite": "Apt. 950",
-      "city": "South Christy",
-      "zipcode": "23505-1337",
-      "geo": {
-        "lat": "-71.4197",
-        "lng": "71.7478"
-      }
-    },
-    "phone": "1-477-935-8478 x6430",
-    "website": "ola.org",
-    "company": {
-      "name": "Considine-Lockman",
-      "catchPhrase": "Synchronised bottom-line interface",
-      "bs": "e-enable innovative applications"
-    }
-  },
-  {
-    "id": 7,
-    "name": "Kurtis Weissnat",
-    "username": "Elwyn.Skiles",
-    "email": "Telly.Hoeger@billy.biz",
-    "address": {
-      "street": "Rex Trail",
-      "suite": "Suite 280",
-      "city": "Howemouth",
-      "zipcode": "58804-1099",
-      "geo": {
-        "lat": "24.8918",
-        "lng": "21.8984"
-      }
-    },
-    "phone": "210.067.6132",
-    "website": "elvis.io",
-    "company": {
-      "name": "Johns Group",
-      "catchPhrase": "Configurable multimedia task-force",
-      "bs": "generate enterprise e-tailers"
-    }
-  },
-  {
-    "id": 8,
-    "name": "Nicholas Runolfsdottir V",
-    "username": "Maxime_Nienow",
-    "email": "Sherwood@rosamond.me",
-    "address": {
-      "street": "Ellsworth Summit",
-      "suite": "Suite 729",
-      "city": "Aliyaview",
-      "zipcode": "45169",
-      "geo": {
-        "lat": "-14.3990",
-        "lng": "-120.7677"
-      }
-    },
-    "phone": "586.493.6943 x140",
-    "website": "jacynthe.com",
-    "company": {
-      "name": "Abernathy Group",
-      "catchPhrase": "Implemented secondary concept",
-      "bs": "e-enable extensible e-tailers"
-    }
-  },
-  {
-    "id": 9,
-    "name": "Glenna Reichert",
-    "username": "Delphine",
-    "email": "Chaim_McDermott@dana.io",
-    "address": {
-      "street": "Dayna Park",
-      "suite": "Suite 449",
-      "city": "Bartholomebury",
-      "zipcode": "76495-3109",
-      "geo": {
-        "lat": "24.6463",
-        "lng": "-168.8889"
-      }
-    },
-    "phone": "(775)976-6794 x41206",
-    "website": "conrad.com",
-    "company": {
-      "name": "Yost and Sons",
-      "catchPhrase": "Switchable contextually-based project",
-      "bs": "aggregate real-time technologies"
-    }
-  },
-  {
-    "id": 10,
-    "name": "Clementina DuBuque",
-    "username": "Moriah.Stanton",
-    "email": "Rey.Padberg@karina.biz",
-    "address": {
-      "street": "Kattie Turnpike",
-      "suite": "Suite 198",
-      "city": "Lebsackbury",
-      "zipcode": "31428-2261",
-      "geo": {
-        "lat": "-38.2386",
-        "lng": "57.2232"
-      }
-    },
-    "phone": "024-648-3804",
-    "website": "ambrose.net",
-    "company": {
-      "name": "Hoeger LLC",
-      "catchPhrase": "Centralized empowering task-force",
-      "bs": "target end-to-end models"
-    }
-  }
-]
-
-19:46:58.800 [main] DEBUG com.intuit.karate - request:
-2 > GET https://jsonplaceholder.typicode.com/users/1
-2 > Host: jsonplaceholder.typicode.com
-2 > Connection: Keep-Alive
-2 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.3)
-2 > Accept-Encoding: gzip,deflate
-
-
-19:46:58.881 [main] DEBUG com.intuit.karate - response time in milliseconds: 80
-2 < 200
-2 < Date: Sat, 01 Jun 2024 23:46:58 GMT
-2 < Content-Type: application/json; charset=utf-8
-2 < Transfer-Encoding: chunked
-2 < Connection: keep-alive
-2 < Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1711143820&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=8ztbp53wgLRuI%2BbFZqTVcgtCPD1xlAKpI1s3d%2Fhi47o%3D"}]}
-2 < Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1711143820&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=8ztbp53wgLRuI%2BbFZqTVcgtCPD1xlAKpI1s3d%2Fhi47o%3D
-2 < Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
-2 < X-Powered-By: Express
-2 < X-Ratelimit-Limit: 1000
-2 < X-Ratelimit-Remaining: 999
-2 < X-Ratelimit-Reset: 1711143838
-2 < Vary: Origin, Accept-Encoding
-2 < Access-Control-Allow-Credentials: true
-2 < Cache-Control: max-age=43200
-2 < Pragma: no-cache
-2 < Expires: -1
-2 < X-Content-Type-Options: nosniff
-2 < Etag: W/"1fd-+2Y3G3w049iSZtw5t1mzSnunngE"
-2 < Via: 1.1 vegur
-2 < CF-Cache-Status: HIT
-2 < Age: 7889
-2 < Server: cloudflare
-2 < CF-RAY: 88d3160d6e1c618f-ORD
-2 < alt-svc: h3=":443"; ma=86400
-{
-  "id": 1,
-  "name": "Leanne Graham",
-  "username": "Bret",
-  "email": "Sincere@april.biz",
-  "address": {
-    "street": "Kulas Light",
-    "suite": "Apt. 556",
-    "city": "Gwenborough",
-    "zipcode": "92998-3874",
-    "geo": {
-      "lat": "-37.3159",
-      "lng": "81.1496"
-    }
-  },
-  "phone": "1-770-736-8031 x56442",
-  "website": "hildegard.org",
-  "company": {
-    "name": "Romaguera-Crona",
-    "catchPhrase": "Multi-layered client-server neural-net",
-    "bs": "harness real-time e-markets"
-  }
-}
-
-19:46:58.885 [main] INFO  com.intuit.karate - karate.env system property was: null 
-19:46:58.909 [main] DEBUG com.intuit.karate - request:
+20:11:29.090 [main] INFO  com.intuit.karate - karate.env system property was: null 
+20:11:29.094 [main] DEBUG com.intuit.karate - request:
 1 > POST https://jsonplaceholder.typicode.com/users
 1 > Content-Type: application/json; charset=UTF-8
 1 > Content-Length: 160
@@ -730,19 +623,19 @@ scenarios:  1 | passed:  1 | failed:  0 | time: 0.5174
 1 > Accept-Encoding: gzip,deflate
 {"name":"Test User","username":"testuser","email":"test@user.com","address":{"street":"Has No Name","suite":"Apt. 123","city":"Electri","zipcode":"54321-6789"}}
 
-19:46:59.059 [main] DEBUG com.intuit.karate - response time in milliseconds: 150
+20:11:29.477 [main] DEBUG com.intuit.karate - response time in milliseconds: 382
 1 < 201
-1 < Date: Sat, 01 Jun 2024 23:46:58 GMT
+1 < Date: Sun, 02 Jun 2024 00:11:29 GMT
 1 < Content-Type: application/json; charset=utf-8
 1 < Content-Length: 216
 1 < Connection: keep-alive
-1 < Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1717285618&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=dAiCNFFlKksXeQvTRGJ5XGW3G1bBVKV2UiD3GlAtX7Q%3D"}]}
-1 < Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1717285618&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=dAiCNFFlKksXeQvTRGJ5XGW3G1bBVKV2UiD3GlAtX7Q%3D
+1 < Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1717287089&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=6Qk6VLhJSGmgi8XcN1YygNXYQzmndHi2s8uSqSk7qSA%3D"}]}
+1 < Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1717287089&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=6Qk6VLhJSGmgi8XcN1YygNXYQzmndHi2s8uSqSk7qSA%3D
 1 < Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
 1 < X-Powered-By: Express
 1 < X-Ratelimit-Limit: 1000
 1 < X-Ratelimit-Remaining: 999
-1 < X-Ratelimit-Reset: 1717285652
+1 < X-Ratelimit-Reset: 1717287092
 1 < Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
 1 < Access-Control-Allow-Credentials: true
 1 < Cache-Control: no-cache
@@ -755,7 +648,7 @@ scenarios:  1 | passed:  1 | failed:  0 | time: 0.5174
 1 < Via: 1.1 vegur
 1 < CF-Cache-Status: DYNAMIC
 1 < Server: cloudflare
-1 < CF-RAY: 88d3160e0d7a2bd4-ORD
+1 < CF-RAY: 88d339f4cfb91ce2-ORD
 1 < alt-svc: h3=":443"; ma=86400
 {
   "name": "Test User",
@@ -770,18 +663,18 @@ scenarios:  1 | passed:  1 | failed:  0 | time: 0.5174
   "id": 11
 }
 
-19:46:59.063 [main] INFO  com.intuit.karate - [print] created id is:  11 
+20:11:29.483 [main] INFO  com.intuit.karate - [print] created id is:  11 
 ---------------------------------------------------------
 feature: classpath:examples/users/users.feature
-scenarios:  2 | passed:  2 | failed:  0 | time: 0.3344
+scenarios:  2 | passed:  2 | failed:  0 | time: 0.7731
 ---------------------------------------------------------
 
-19:46:59.131 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 2 of 2 (0 remaining) classpath:examples/users/users.feature
-19:46:59.131 [main] DEBUG com.intuit.karate.Suite - waiting for 2 features to complete
+20:11:29.568 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 2 of 2 (0 remaining) classpath:examples/users/users.feature
+20:11:29.569 [main] DEBUG com.intuit.karate.Suite - waiting for 2 features to complete
 Karate version: 1.4.1
 ======================================================
-elapsed:   1.89 | threads:    1 | thread time: 0.85 
-features:     2 | skipped:    0 | efficiency: 0.45
+elapsed:   5.64 | threads:    1 | thread time: 4.61 
+features:     2 | skipped:    0 | efficiency: 0.82
 scenarios:    3 | passed:     3 | failed: 0
 ======================================================
 
