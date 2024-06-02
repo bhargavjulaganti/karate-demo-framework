@@ -2,13 +2,14 @@ Feature: browser automation demo
 
 Background:
   * configure driver = { type: 'chrome' }
+  * call read 'saucedemo-locators.json'
   * def baseUrl = 'https://www.saucedemo.com/'
 
 Scenario: navigate to google and serach for karate
 
   Given driver baseUrl
-  And input("[name=user-name]", 'standard_user')
-  And input("[name=password]", 'secret_sauce')
-  When click("[name=login-button]") 
+  And input(loginPage.username, 'standard_user')
+  And input(loginPage.password, 'secret_sauce')
+  When click(loginPage.loginButton) 
   Then match driver.title == "Swag Labs"
   
