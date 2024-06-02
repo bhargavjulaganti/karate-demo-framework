@@ -1,0 +1,14 @@
+target/*
+target/karate-reports/*
+target/karate-reports/examples.users.admin.html
+target/karate-reports/examples.users.admin.html
+target/karate-reports/examples.users.admin.karate-json.txt
+target/karate-reports/examples.users.users.html
+target/karate-reports/examples.users.users.karate-json.txt
+target/karate-reports/karate-summary-json.txt
+target/karate-reports/karate-summary.html
+target/karate-reports/karate-tags.html
+target/karate-reports/karate-timeline.html
+target/surefire-reports/examples.ExamplesTest.txt
+target/surefire-reports/TEST-examples.ExamplesTest.xml
+target/karate.log

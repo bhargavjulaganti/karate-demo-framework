@@ -1,17 +1,13 @@
-Feature: sample karate test script
-  for help, see: https://github.com/karatelabs/karate/wiki/IDE-Support
+Feature: browser automation demo
 
-  Background:
-    * url 'https://jsonplaceholder.typicode.com'
+Background:
+  * configure driver = { type: 'chrome' }
 
-  Scenario: get all users and then get the first user by id
-    Given path 'users'
-    When method get
-    Then status 200
+Scenario: navigate to google and serach for karate
 
-    * def first = response[0]
-
-    Given path 'users', first.id
-    When method get
-    Then status 200
-  
+  Given driver 'https://google.com'
+  # And click('{}Accept all')
+  And input("[name=q][name=q]", 'karate dsl')
+  When submit().click("input[name=btnI]")
+  Then waitForUrl('https://github.com/karatelabs/karate')
+  And screenshot()
